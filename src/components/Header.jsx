@@ -9,15 +9,12 @@ const Header = () => {
                 <main className="flex items-center">
                     <div className="flex"><a href="/">
                         <figure>
-                            {/* <img src="https://stock-logos.dhan.co/static-openweb/dhangreens.png" alt="logo"
-                            className="lg:w-28 md:w-7/12"> */}
                             <Image
-                                src="https://stock-logos.dhan.co/static-openweb/dhangreens.png"
+                                src=""
                                 width={500}
                                 height={500}
                                 alt="Picture of the author"
                             />
-
                         </figure>
                     </a></div>
                 </main>
