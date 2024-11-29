@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import "./globals.css";
+import { Headerslider } from "@/components/Headerslider";
 
 
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header/>
+        <Headerslider/>
         {children}
       </body>
     </html>
