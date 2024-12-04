@@ -5,7 +5,7 @@ import { FaSearch } from 'react-icons/fa';
 const Header = () => {
     return (
         <header className="md:block bg-white py-2  w-full shadow-[1px_1px_3px_#dddddd]">
-            <section className="flex items-center justify-between gap-4 max-w-[1550px] mx-auto px-4 md:px-5 ">
+            <section className="flex items-center justify-between gap-4 max-w-[1550px] mx-auto px-4 md:px-5 lg:px-0 ">
                 <div className="flex items-center">
                     <a href="/" aria-label="Homepage">
                         <Image
